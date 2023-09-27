@@ -1,6 +1,6 @@
 # espiec.com
 
-> Welcome to my open source portfolio website
+> Welcome to my open source portfolio
 
 ## Getting started
 
