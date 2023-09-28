@@ -40,6 +40,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk">
 
     <!-- Scripts -->
+    <link rel="stylesheet/less" type="text/css" href="assets/scss/globals.scss"/>
+    <link rel="stylesheet/less" type="text/css" href="assets/scss/heading.scss"/>
+    <link rel="stylesheet/less" type="text/css" href="assets/scss/patterns.scss"/>
+    <link rel="stylesheet/less" type="text/css" href="assets/scss/navigation.scss"/>
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/b2339f41a6.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -50,11 +57,37 @@
 
 <!-- Main Container -->
 <div class="main-container">
+
+    <!-- Navigation -->
+    <div class="navigation-container">
+        <div class="navigation-wrapper">
+            <a href="/">
+                <img class="logo" src="/assets/img/blog/estxbxn.png" alt="Estéban Memoji"/>
+            </a>
+            <nav class="navigation">
+                <a class="item" href="/">
+                    Home
+                </a>
+                <a class="item" href="#projects">
+                    Projects
+                </a>
+                <a class="item" href="#blog">
+                    Blog
+                </a>
+            </nav>
+        </div>
+    </div>
+
     <!-- Main Container -->
     <main class="main-wrapper">
 
         <!-- Heading -->
         <div class="heading-container">
+
+            <!--
+            <img class="creator" src="assets/img/blog/estxbxn.png" alt="Estéban Memoji"/>
+            -->
+
             <h1 class="title">Estéban Piecourt</h1>
             <h2 class="job">FullStack Developer</h2>
 
@@ -63,16 +96,22 @@
 
                 <!-- GitHub Social Button -->
                 <a class="social-button" href="https://github.com/estxbxn" target="_blank">
-                    GitHub
+                    <i class="icon fa-brands fa-github"></i>
                 </a>
+
+                <!-- GitLab  Social Button -->
                 <a class="social-button" href="https://gitlab.com/estxbxn" target="_blank">
-                    GitLab
+                    <i class="icon fa-brands fa-gitlab"></i>
                 </a>
+
+                <!-- Discord Social Button -->
                 <a class="social-button" href="https://discord.com/user/estxbxn" target="_blank">
-                    Discord
+                    <i class="icon fa-brands fa-discord"></i>
                 </a>
+
+                <!-- Twitter Social Button -->
                 <a class="social-button" href="https://twitter.com/estxbxn___" target="_blank">
-                    Twitter
+                    <i class="icon fa-brands fa-twitter"></i>
                 </a>
             </div>
         </div>

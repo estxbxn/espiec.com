@@ -1,0 +1,22 @@
+{
+  "name": "espiec.com",
+  "version": "1.0.0",
+  "description": "My open source portfolio created without any framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/espiec/espiec.com.git"
+  },
+  "author": "Estéban Piecourt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/espiec/espiec.com/issues"
+  },
+  "homepage": "https://gitlab.com/espiec/espiec.com#readme",
+  "dependencies": {
+    "sass": "^1.68.0"
+  }
+}
