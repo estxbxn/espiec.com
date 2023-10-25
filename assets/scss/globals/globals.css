@@ -5,7 +5,9 @@
 html {
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
-  tab-size: 4;
+  -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
   font-family: "Space Grotesk", sans-serif;
   font-feature-settings: normal;
 }
@@ -23,7 +25,7 @@ html ::-webkit-scrollbar-button {
 }
 html ::-moz-selection {
   color: white;
-  background: #7e22ce;
+  background: #2b2065;
 }
 html ::selection {
   color: white;
@@ -34,22 +36,14 @@ body {
   height: auto;
   scroll-behavior: smooth;
   margin: 0;
-  line-height: inherit;
-  color: var(--text-color);
+  padding: 0;
+  background: linear-gradient(180deg, #2b2065 4.06%, #702ea5 74.74%);
 }
-
-.background {
-  position: absolute;
-  background-color: rgba(217, 217, 217, 0.2);
-  top: 0;
-  left: 0;
-}
-.background .overlay {
-  position: relative;
-}
-.background .gradient-pattern {
-  position: absolute;
-  object-fit: cover;
-}
-
-/*# sourceMappingURL=globals.css.map */
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin: 5rem;
+}/*# sourceMappingURL=globals.css.map */

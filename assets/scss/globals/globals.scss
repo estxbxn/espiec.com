@@ -26,7 +26,7 @@ html {
 
   ::-moz-selection {
     color: white;
-    background: #7e22ce;
+    background: #2b2065;
   }
 
   ::selection {
@@ -39,22 +39,15 @@ body {
   height: auto;
   scroll-behavior: smooth;
   margin: 0;
-  line-height: inherit;
-  color: var(--text-color);
-}
+  padding: 0;
+  background: linear-gradient(180deg, #2b2065 4.06%, #702ea5 74.74%);
 
-.background {
-  position: absolute;
-  background-color: #d9d9d933;
-  top: 0;
-  left: 0;
-
-  .overlay {
-    position: relative;
-  }
-
-  .gradient-pattern {
-    position: absolute;
-    object-fit: cover;
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin: 5rem;
   }
 }

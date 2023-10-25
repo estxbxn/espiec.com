@@ -1,0 +1,67 @@
+.techs {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+.techs .title {
+  color: #fff;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.techs .description {
+  width: 320px;
+  color: #fff;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.techs .contents {
+  display: flex;
+  padding: 30px 200px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.techs .contents .item {
+  padding: 10px 30px;
+  border-radius: 80px;
+  border: 1px solid rgba(184, 165, 228, 0.55);
+  background: rgba(184, 165, 228, 0.2);
+  -webkit-backdrop-filter: blur(22.5px);
+          backdrop-filter: blur(22.5px);
+}
+.techs .contents .item .item-content {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.techs .contents .item .item-content .icon {
+  height: 30px;
+}
+.techs .contents .item .item-content .title {
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}/*# sourceMappingURL=techs.css.map */

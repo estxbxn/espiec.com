@@ -1,95 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Website Title -->
     <title>Estéban Piecourt — Portfolio</title>
 
     <!-- Meta Data -->
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
 
-    <meta name="title" content="Estéban Piecourt — FullStack Developer"/>
-    <meta name="description" content="I'm a web developer from France and this is my place on the web."/>
-
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://espiec.com/"/>
-    <meta property="og:title" content="Estéban Picourt — FullStack Developer"/>
-    <meta property="og:description" content="I'm a web developer from France and this is my place on the web."/>
-    <meta property="og:image" itemProp="image" content="assets/img/thumbnail.png"/>
-
-    <meta property="twitter:card" content="summary_large_image"/>
-    <meta property="twitter:url" content="https://espiec.com/"/>
-    <meta property="twitter:title" content="Estéban Piecourt — FullStack Developer"/>
+    <meta name="title" content="Estéban Piecourt — FullStack Developer" />
     <meta
-            property="twitter:description"
-            content="I'm a web developer from France and this is my place on the web."
+      name="description"
+      content="I'm a web developer from France and this is my place on the web."
     />
-    <meta property="twitter:image" content="assets/img/thumbnail.png"/>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://espiec.com/" />
+    <meta property="og:title" content="Estéban Picourt — FullStack Developer" />
+    <meta
+      property="og:description"
+      content="I'm a web developer from France and this is my place on the web."
+    />
+    <meta
+      property="og:image"
+      itemprop="image"
+      content="assets/img/thumbnail.png"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://espiec.com/" />
+    <meta
+      property="twitter:title"
+      content="Estéban Piecourt — FullStack Developer"
+    />
+    <meta
+      property="twitter:description"
+      content="I'm a web developer from France and this is my place on the web."
+    />
+    <meta property="twitter:image" content="assets/img/thumbnail.png" />
     <!-- -->
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/img/favicon.png"/>
-
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk">
+    <link rel="icon" href="assets/img/favicon.png" />
 
     <!-- Scripts -->
-    <link rel="stylesheet/less" type="text/css" href="assets/scss/globals.scss"/>
-    <link rel="stylesheet/less" type="text/css" href="assets/scss/header.scss"/>
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="assets/scss/globals/fonts/fonts.scss"
+    />
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="assets/scss/globals/globals.scss"
+    />
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="assets/scss/header/header.scss"
+    />
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="assets/scss/hero/hero.scss"
+    />
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="assets/scss/techs/techs.scss"
+    />
+    <link
+      rel="stylesheet/less"
+      type="text/css"
+      href="assets/scss/projects/projects.scss"
+    />
     <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/b2339f41a6.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/b2339f41a6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <!-- Header -->
+      <header class="header">
+        <div class="navbar">
+          <a class="link" href="/">Home</a>
+          <a class="link" href="/about">About</a>
+          <a class="link" href="/projects">Projects</a>
+          <a class="link" href="/blog">Blog</a>
+          <a class="link" href="/contact">Contact</a>
+        </div>
+      </header>
 
-<!-- Background Overlay -->
-<div class="background">
-    <div class="overlay">
-        <img class="gradient-pattern" src="/assets/img/textures/gradient-pattern.jpg" alt="Gradient pattern"/>
-    </div>
-</div>
+      <!-- Hero Section -->
+      <div class="hero">
+        <img
+          class="icon"
+          src="assets/img/avatars/thumbs_up.png"
+          alt="Estéban Thumbs Up"
+        />
 
-<!-- Header -->
-<header class="header">
-    <div class="navbar">
-        <a class="link" href="/">Home</a>
-        <a class="link" href="/about">About</a>
-        <a class="link" href="/projects">Projects</a>
-        <a class="link" href="/blog">Blog</a>
-        <a class="link" href="/contact">Contact</a>
-    </div>
-</header>
-
-<div class="cta">
-    <div class="item-112">
-        <img class="rectangle-225" src="assets/img/textures/1.png"/>
-        <div class="show-more-button2">
-            <div class="rectangle-35"></div>
-            <div class="content3">
-                <svg class="vector23" width="22" height="26" viewBox="0 0 22 26" fill="none"
-                     xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20.0225 6.75035C18.9275 6.7294 18.0313 7.64649 18.0313 8.74171V13H17.6406V4.39601C17.6406 3.30079 16.7443 2.3837 15.6494 2.40465C14.5883 2.42496 13.7344 3.29147 13.7344 4.35743V13H13.3438V2.49171C13.3438 1.39649 12.4475 0.479405 11.3525 0.500352C10.2914 0.520664 9.4375 1.38717 9.4375 2.45314V13H9.04688V4.44483C9.04688 3.34962 8.15059 2.43253 7.05562 2.45348C5.99453 2.47379 5.14063 3.34029 5.14063 4.40626V15.9293L3.59531 13.8044C2.96089 12.932 1.73941 12.7391 0.866945 13.3735C-0.00536942 14.008 -0.198241 15.2295 0.436183 16.1019L6.56904 24.5348C6.78648 24.8337 7.07155 25.077 7.40097 25.2448C7.73039 25.4126 8.09483 25.5 8.4645 25.5H18.1125C19.2 25.5 20.1448 24.7518 20.3939 23.6931L21.6882 18.1921C21.8538 17.4884 21.9374 16.7678 21.9375 16.0449V8.70314C21.9375 7.63717 21.0836 6.77066 20.0225 6.75035Z"
-                          fill="white"/>
-                </svg>
-                <div class="contact-me">Contact Me</div>
+        <div class="contents">
+          <div class="title">Estéban Piecourt</div>
+          <div class="description">Developer, Designer</div>
+          <div class="socials">
+            <div class="socials-links">
+              <a class="social" href="#">
+                <img src="assets/img/socials/github.svg" alt="GitHub Icon" />
+              </a>
+              <a class="social" href="#">
+                <img src="assets/img/socials/gitlab.svg" alt="GitLab Icon" />
+              </a>
+              <a class="social" href="#">
+                <img
+                  src="assets/img/socials/buy-me-a-coffee.svg"
+                  alt="BuyMeACoffee Icon"
+                />
+              </a>
+              <a class="social" href="#">
+                <img src="assets/img/socials/twitter.svg" alt="Twitter Icon" />
+              </a>
             </div>
+          </div>
         </div>
-        <svg class="vector-1" width="110" height="10" viewBox="0 0 110 10" fill="none"
-             xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 10L9.59446 1.27776C10.3914 0.553242 11.6086 0.553242 12.4055 1.27776L20.5945 8.72224C21.3914 9.44676 22.6086 9.44676 23.4055 8.72224L31.5945 1.27776C32.3914 0.553242 33.6086 0.553242 34.4055 1.27776L42.5945 8.72224C43.3914 9.44676 44.6086 9.44676 45.4055 8.72224L53.5945 1.27776C54.3914 0.553242 55.6086 0.553242 56.4055 1.27776L64.5945 8.72224C65.3914 9.44676 66.6086 9.44676 67.4055 8.72224L75.5945 1.27776C76.3914 0.553242 77.6086 0.553242 78.4055 1.27776L86.5945 8.72224C87.3914 9.44676 88.6086 9.44676 89.4055 8.72224L97.5945 1.27776C98.3914 0.55324 99.6086 0.553242 100.406 1.27776L110 10"
-                  stroke="white" stroke-width="5"/>
-        </svg>
-        <div class="contact-me-today-to-discuss-how-we-can-help-you-achieve-your-goals">
-            Contact me today to discuss how we can help you achieve your
-            goals.
-        </div>
-        <div class="ready-to-entrust-your-mission">
-            Ready to entrust your mission ?
-        </div>
-    </div>
-</div>
+      </div>
 
+      <!-- Technologies -->
+      <div class="techs">
+        <div class="title">Technologies</div>
+        <div class="description">
+          Different technologies that I use on a daily basis
+        </div>
+        <ul class="contents">
+          <li class="item">
+            <div class="item-content">
+              <img class="icon" src="assets/img/techs/html.svg" />
+              <div class="title">HTML</div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item-content">
+              <img class="icon" src="assets/img/techs/html.svg" />
+              <div class="title">HTML</div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item-content">
+              <img class="icon" src="assets/img/techs/html.svg" />
+              <div class="title">HTML</div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item-content">
+              <img class="icon" src="assets/img/techs/html.svg" />
+              <div class="title">HTML</div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item-content">
+              <img class="icon" src="assets/img/techs/html.svg" />
+              <div class="title">HTML</div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item-content">
+              <img class="icon" src="assets/img/techs/html.svg" />
+              <div class="title">HTML</div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item-content">
+              <img class="icon" src="assets/img/techs/html.svg" />
+              <div class="title">HTML</div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item-content">
+              <img class="icon" src="assets/img/techs/html.svg" />
+              <div class="title">HTML</div>
+            </div>
+          </li>
+        </ul>
+      </div>
 
-</body>
+      <!-- Projects -->
+      <div class="projects">
+        <div class="title">Projects</div>
+        <div class="description">
+          Projects on which I was able to work and collaborate
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
