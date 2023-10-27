@@ -46,3 +46,69 @@
   - © 2023 Estéban Piecourt. Tous droits réservés.
 
 
+
+## Pages
+
+> Description des différentes pages.
+
+
+
+- ## Home
+
+  > The home page of my website
+
+  - #### Short About Me
+
+    - Memoji
+    - Prénom NOM
+    - Status
+
+  - #### Réseaux sociaux
+
+    - GitHub
+    - GitLab
+    - Discord
+    - Twitter
+
+  - #### Technologies
+
+    - Les technologies que j'utilises au quotidien
+      - HTML
+      - CSS
+      - SASS
+      - JavaScript
+      - TypeScript
+      - Java
+      - React
+      - Node.js
+      - Next.js
+      - Nuxt.js
+      - Express.js
+      - Font Awesome
+      - Git
+      - GitHub
+      - MongoDB
+      - MySQL
+      - Webpack
+      - PNPM
+      - Vercel
+      - Github Pages
+
+  - #### Projects
+
+    - Affiche les deux derniers projets récents que j'ai pus réalisé
+      - Whimsy Studio
+      - hokib.com
+    - Bouton "En voir plus"
+
+  - #### Blog
+
+    - Affiche les deux derniers articles de blog que j'ai pus rédigé
+    - Bouton "En voir plus"
+
+  - #### Call To Action
+
+    - Prêt à me confier une mission ?
+      - Contactez moi afin de discuter sur comment je puisse vous aidez
+      - ∼
+      - Bouton "Contactez moi"
