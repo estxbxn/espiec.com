@@ -163,3 +163,32 @@
       - Contactez moi afin de discuter sur comment je puisse vous aidez
       - ∼
       - Bouton "Contactez moi"
+
+  
+
+- ## Projects
+
+  > Projects on which I was able to work and collaborate
+
+  - #### Tags
+
+    - Select tag to see related projects
+      - Java
+      - Web
+      - Plugins
+      - Web Design
+
+  - #### Projects
+
+    - hokib.com
+    - Whimsy Studio
+    - Hyping
+    - Elarys
+    - Lysaria
+
+  - #### Call To Action
+
+    - Prêt à me confier une mission ?
+      - Contactez moi afin de discuter sur comment je puisse vous aidez
+      - ∼
+      - Bouton "Contactez moi"
