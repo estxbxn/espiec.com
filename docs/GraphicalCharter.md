@@ -19,10 +19,10 @@
 
 ## Header
 ### Navigation
-![](/Users/estebanpiecourt/Documents/Workspace/espiec.com/docs/img/header.png)
+![](./img/header.png)
 
 ## Footer
-![](/Users/estebanpiecourt/Documents/Workspace/espiec.com/docs/img/footer.png)
+![](./img/footer.png)
 
 
 
@@ -37,19 +37,19 @@
   > The home page of my website
 
   - #### Short About Me
-  	![](/Users/estebanpiecourt/Documents/Workspace/espiec.com/docs/img/herosection.png)
+  	![](./img/herosection.png)
   	
   - #### Technologies
-  	![](/Users/estebanpiecourt/Documents/Workspace/espiec.com/docs/img/technologies.png)
+  	![](./img/technologies.png)
   	
   - #### Projects
-  	![](/Users/estebanpiecourt/Documents/Workspace/espiec.com/docs/img/projects.png)
+  	![](./img/projects.png)
   	
   - #### Blog
-  	![](/Users/estebanpiecourt/Documents/Workspace/espiec.com/docs/img/blog.png)
+  	![](./img/blog.png)
   	
   - #### Call To Action
-  	![](/Users/estebanpiecourt/Documents/Workspace/espiec.com/docs/img/cta.png)
+  	![](./img/cta.png)
   
   
   
