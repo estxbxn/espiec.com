@@ -112,3 +112,54 @@
       - Contactez moi afin de discuter sur comment je puisse vous aidez
       - ∼
       - Bouton "Contactez moi"
+
+  
+
+- ## About Me
+
+  > Projects on which I was able to work and collaborate
+
+  - #### Skills
+
+    - HTML
+    - CSS
+    - SASS
+    - JavaScript
+    - TypeScript
+    - Java
+    - React
+    - Node.js
+    - Next.js
+    - Nuxt.js
+    - Express.js
+    - Font Awesome
+    - Git
+    - GitHub
+    - MongoDB
+    - MySQL
+    - Webpack
+    - PNPM
+    - Vercel
+    - Github Pages
+
+  - #### Experiences
+
+    - Ciagec
+    - Whimsy Studio
+    - Lysaria
+    - Elarys
+
+  - #### Collaboration
+
+    - Je suis toujours ouvert à de nouvelles suggestions. Si vous avez une une offre non conventionnelle ou si vous voulez voir ce que j'ai d'autre à offrir, [contactez-moi par mail](mailto:esteban.piecourt@gmail.com)
+
+  - #### Contact
+
+    - Vous pouvez me contacter directement sur mes différents réseaux sociaux comme [Discord](https://discord.com/users/estxbxn),  [Twitter](https://twitter.com/estxbxn__)  ou d'autres médias sociaux. Je réponds à tous les messages ! Demandez-moi tout ce que vous voulez afin d'en discuter.
+
+  - #### Call To Action
+
+    - Prêt à me confier une mission ?
+      - Contactez moi afin de discuter sur comment je puisse vous aidez
+      - ∼
+      - Bouton "Contactez moi"
