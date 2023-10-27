@@ -192,3 +192,16 @@
       - Contactez moi afin de discuter sur comment je puisse vous aidez
       - ∼
       - Bouton "Contactez moi"
+
+  
+
+- ## Blog
+
+      ...
+
+  
+
+- ## Contact
+
+      ...
+
