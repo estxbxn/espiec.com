@@ -1,1 +1,75 @@
-/*# sourceMappingURL=projects.css.map */
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+.projects .title {
+  color: #fff;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.projects .description {
+  width: 320px;
+  color: #fff;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.projects .contents {
+  display: flex;
+  padding: 60px 0px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 50px 40px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.projects .contents .projects {
+  display: flex;
+  padding: 60px 0px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 50px 40px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.projects .contents .projects .project {
+  width: 680px;
+  height: 630px;
+  border-radius: 80px;
+  border: 1px solid rgba(184, 165, 228, 0.55);
+  background: rgba(184, 165, 228, 0.2);
+  -webkit-backdrop-filter: blur(22.5px);
+          backdrop-filter: blur(22.5px);
+}
+.projects .contents .projects .project .thumbnail {
+  width: 634.45px;
+  height: 415.981px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 1px solid rgba(184, 165, 228, 0.55);
+  background: rgba(184, 165, 228, 0.2);
+  -webkit-backdrop-filter: blur(22.5px);
+          backdrop-filter: blur(22.5px);
+}
+.projects .contents .projects .project .title {
+  width: 396.368px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.projects .contents .projects .project .description {
+  width: 562.789px;
+  height: 86px;
+  flex-shrink: 0;
+}/*# sourceMappingURL=projects.css.map */

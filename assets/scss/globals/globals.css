@@ -1,5 +1,6 @@
 :root {
   --text-color: #ede9fee6;
+  --text-title-size: 20px;
 }
 
 html {
@@ -10,6 +11,7 @@ html {
        tab-size: 4;
   font-family: "Space Grotesk", sans-serif;
   font-feature-settings: normal;
+  background: linear-gradient(180deg, #2b2065 4.06%, #702ea5 74.74%);
 }
 html ::-webkit-scrollbar {
   background-color: #27272a;
@@ -37,7 +39,6 @@ body {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  background: linear-gradient(180deg, #2b2065 4.06%, #702ea5 74.74%);
 }
 body main {
   display: flex;
@@ -45,5 +46,5 @@ body main {
   justify-content: center;
   align-items: center;
   gap: 150px;
-  margin: 5rem;
+  margin: 2rem;
 }/*# sourceMappingURL=globals.css.map */
