@@ -1,5 +1,6 @@
 # Contenus - Portfolio
->  **Auteur :** Estéban PIECOURT
+
+> **Auteur :** Estéban PIECOURT
 >
 > **Date de création :** 23/10/2023
 >
@@ -7,18 +8,16 @@
 >
 > **Description :** Description graphique de chaque élements du portfolio de Estéban.
 
-
-
 ## Thématique
 
 > **Couleurs :** Violet, Rose, Bleu
 >
 > **Police d'écriture :** Space Grotesk
 
-
-
 ## Header
+
 ### Navigation
+
 - **[Home](#home)**
 - **[About Me](#about-me)**
 - **[Projects](#projects)**
@@ -27,7 +26,8 @@
 
 ## Footer
 
-- **À gauche** 
+- **À gauche**
+
   - Insérer un memoji sur l'ordinateur
   - Hi, I'm Estéban Piecourt, a 19-year-old FullStack Developer based in Strasbourg. With 3 years of experience in web development, I'm passionate about creating innovative and dynamic web solutions. I'm committed to crafting digital experiences that push the boundaries of what's possible. Explore my portfolio and feel free to get in touch to collaborate on your next web project today.
 
@@ -45,13 +45,9 @@
 - **Copyright**
   - © 2023 Estéban Piecourt. Tous droits réservés.
 
-
-
 ## Pages
 
 > Description des différentes pages.
-
-
 
 - ## Home
 
@@ -113,11 +109,15 @@
       - ∼
       - Bouton "Contactez moi"
 
-  
-
 - ## About Me
 
   > Projects on which I was able to work and collaborate
+
+  - #### Short About
+
+    - Memoji
+    - Estéban Piecourt
+    - Hi, I'm Estéban Piecourt, a 19-year-old FullStack Developer based in Strasbourg. With 3 years of experience in web development, I'm passionate about creating innovative and dynamic web solutions. I'm committed to crafting digital experiences that push the boundaries of what's possible. Explore my portfolio and feel free to get in touch to collaborate on your next web project today.
 
   - #### Skills
 
@@ -149,22 +149,12 @@
     - Lysaria
     - Elarys
 
-  - #### Collaboration
-
-    - Je suis toujours ouvert à de nouvelles suggestions. Si vous avez une une offre non conventionnelle ou si vous voulez voir ce que j'ai d'autre à offrir, [contactez-moi par mail](mailto:esteban.piecourt@gmail.com)
-
-  - #### Contact
-
-    - Vous pouvez me contacter directement sur mes différents réseaux sociaux comme [Discord](https://discord.com/users/estxbxn),  [Twitter](https://twitter.com/estxbxn__)  ou d'autres médias sociaux. Je réponds à tous les messages ! Demandez-moi tout ce que vous voulez afin d'en discuter.
-
   - #### Call To Action
 
     - Prêt à me confier une mission ?
       - Contactez moi afin de discuter sur comment je puisse vous aidez
       - ∼
       - Bouton "Contactez moi"
-
-  
 
 - ## Projects
 
@@ -180,6 +170,15 @@
 
   - #### Projects
 
+  - Projects Tags
+
+    - Java
+    - Web
+    - Plugins
+    - Web Design
+
+  - Projects
+
     - hokib.com
     - Whimsy Studio
     - Hyping
@@ -193,15 +192,45 @@
       - ∼
       - Bouton "Contactez moi"
 
-  
-
 - ## Blog
 
-      ...
+  > Where I love to share my knowledge through writing
 
-  
+  - Blogs Tiles
+
+    - Blog Thumbnail
+    - Blog Title
+    - Blog Description
+
+  - #### Call To Action
+
+    - Prêt à me confier une mission ?
+      - Contactez moi afin de discuter sur comment je puisse vous aidez
+      - ∼
+      - Bouton "Contactez moi"
 
 - ## Contact
 
-      ...
+  > Let us know more about you!
 
+  - Formulaire de contact
+
+    - Firstname
+    - Lastname
+    - Email
+    - Message
+    - Bouton "Send"
+
+  - Bouton réseaux sociaux
+
+    - Github
+    - Gitlab
+    - BuyMeACoffee
+    - Twitter
+
+  - #### Call To Action
+
+    - Prêt à me confier une mission ?
+      - Contactez moi afin de discuter sur comment je puisse vous aidez
+      - ∼
+      - Bouton "Contactez moi"
