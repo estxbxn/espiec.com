@@ -18,11 +18,11 @@
 
 ### Navigation
 
-![](./img/header.png)
+![](./medias/header.png)
 
 ## Footer
 
-![](./img/footer.png)
+![](./medias/footer.png)
 
 ## Pages
 
@@ -33,36 +33,36 @@
   > The home page of my website
 
   - #### Short About Me
-    ![](./img/herosection.png)
+    ![](./medias/herosection.png)
   - #### Technologies
-    ![](./img/technologies.png)
+    ![](./medias/technologies.png)
   - #### Projects
-    ![](./img/projects.png)
+    ![](./medias/projects.png)
   - #### Blog
-    ![](./img/blog.png)
+    ![](./medias/blog.png)
   - #### Call To Action
-    ![](./img/cta.png)
+    ![](./medias/cta.png)
 
 - ## About Me
 
   > Projects on which I was able to work and collaborate
 
-  ![](./img/about-page.png)
+  ![](./medias/about-page.png)
 
 - ## Projects
 
   > Projects on which I was able to work and collaborate
 
-  ![](./img/projects-page.png)
+  ![](./medias/projects-page.png)
 
 - ## Blog
 
   > Where I love to share my knowledge through writing
 
-  ![](./img/blog-page.png)
+  ![](./medias/blog-page.png)
 
 - ## Contact
 
   > Let us know more about you!
 
-  ![](./img/contact-page.png)
+  ![](./medias/contact-page.png)

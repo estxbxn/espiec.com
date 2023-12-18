@@ -1,0 +1,56 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+.projects .contents {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px 20px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.projects .contents .item {
+  width: 25rem;
+  padding: 10px 30px;
+  border-radius: 40px;
+  border: 1px solid rgba(184, 165, 228, 0.55);
+  background: rgba(184, 165, 228, 0.2);
+  -webkit-backdrop-filter: blur(22.5px);
+          backdrop-filter: blur(22.5px);
+}
+.projects .contents .item .thumbnail {
+  width: 100%;
+  border-radius: 30px;
+}
+.projects .contents .item .item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.projects .contents .item .item-content .title {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.projects .contents .item .item-content .description {
+  width: 320px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=projects.css.map */

@@ -8,23 +8,6 @@
   width: 40%;
   height: 40%;
 }
-.hero .contents .title {
-  color: #fff;
-  font-family: Space Grotesk;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.hero .contents .description {
-  color: #fff;
-  text-align: center;
-  font-family: Space Grotesk;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 .hero .contents .socials {
   display: flex;
   flex-direction: column;
