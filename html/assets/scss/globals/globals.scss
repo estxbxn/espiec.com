@@ -48,7 +48,6 @@ html {
       justify-content: center;
       align-items: center;
       gap: 150px;
-      margin: 2rem;
     }
   }
 }
@@ -60,12 +59,12 @@ Globals styles
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  margin: auto;
+  margin-left: 14rem;
+  margin-right: 14rem;
 
   border-radius: 40px;
   border: 1px solid rgba(184, 165, 228, 0.55);
-  background: url("/html/assets/img/textures/1.png"),
-    black 10% / cover no-repeat;
+  background: url("/html/assets/img/textures/1.png");
   backdrop-filter: blur(15px);
 
   .contents {
@@ -100,8 +99,6 @@ Globals styles
     .wave {
       width: 110px;
       height: 10px;
-      stroke-width: 5px;
-      stroke: #fff;
     }
   }
 }
