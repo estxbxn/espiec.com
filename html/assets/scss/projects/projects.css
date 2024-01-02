@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  margin: 2rem;
   align-self: stretch;
 }
 .projects .contents {
