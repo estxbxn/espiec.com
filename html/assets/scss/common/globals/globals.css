@@ -54,7 +54,8 @@ Globals styles
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  margin: 0 80px 0 80px;
+  margin-left: 14rem;
+  margin-right: 14rem;
   border-radius: 40px;
   border: 1px solid rgba(184, 165, 228, 0.55);
   background: url("/html/assets/img/textures/1.png");
