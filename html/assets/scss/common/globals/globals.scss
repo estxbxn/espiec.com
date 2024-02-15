@@ -53,6 +53,15 @@ html {
 }
 
 /*
+Media Queries
+*/
+@media (max-width: 768px) {
+  .call-to-action {
+    margin: 0 !important;
+  }
+}
+
+/*
 Globals styles
 */
 .call-to-action {

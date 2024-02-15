@@ -1,3 +1,18 @@
+/*
+Media Queries
+*/
+@media (max-width: 768px) {
+  footer .container .footer-left,
+  footer .container .footer-right {
+    margin: 0 5rem !important;
+  }
+
+  footer .container {
+    flex-direction: column !important;
+    gap: 5rem !important;
+  }
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -30,9 +45,7 @@ footer {
       .description {
         color: #fff;
         text-align: justify;
-        font-family: Space Grotesk;
         font-size: 12px;
-        font-style: normal;
         font-weight: 400;
         line-height: 125%;
       }
@@ -53,9 +66,7 @@ footer {
         .link {
           color: #fff;
           text-align: center;
-          font-family: Space Grotesk;
           font-size: 12px;
-          font-style: normal;
           font-weight: 500;
           line-height: 125%;
           text-decoration: none;
@@ -67,11 +78,7 @@ footer {
 
   .copyright {
     color: #fff;
-    font-family: Space Grotesk;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%;
     padding-bottom: 10px;
   }
 }
