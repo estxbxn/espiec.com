@@ -6,10 +6,10 @@
 
 - [x] Adapt Figma to HTML/CSS
 - [x] Create Home Page
-- [ ] Create About Me Page
-- [ ] Create Projects Page
-- [ ] Create Blog Page
-- [ ] Create Contact Page
+- [x] Create About Me Page
+- [x] Create Projects Page
+- [x] Create Blog Page
+- [x] Create Contact Page
 
 ## Test and deploy
 
@@ -23,4 +23,4 @@ git push -uf origin main
 
 Finally launch the index.html 🤩
 
-***
+---
